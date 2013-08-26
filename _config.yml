@@ -4,7 +4,7 @@
 
 url: http://joelparsons.github.io
 title: joelparsons.net
-subtitle: iOS Developer Stuff
+subtitle: iOS Developer Stuff Every Monday
 author: Joel Parsons
 simple_search: http://google.com/search
 description:
@@ -94,7 +94,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: "UA-1788810-15"
 
 # Facebook Like
 facebook_like: false
