@@ -25,9 +25,9 @@ To solve this problem with a graph search algorithm we need the letters in a gra
 @end
 {% endcodeblock %}
 
-We would create a 'Node \*' for each letter in the boggle board and then link it to the nodes that letter is adjacent to. There is now no need to store the Nodes in an array matrix that represents the board or anything like that as all the information about the board we need is encapsulated in these two pieces of data. Now assuming we can get the board represented in a bunch of 'Node' objects all in an 'NSSet' the algorithm for searching through them is relatively simple.
+We would create a `Node \*` for each letter in the boggle board and then link it to the nodes that letter is adjacent to. There is now no need to store the Nodes in an array matrix that represents the board or anything like that as all the information about the board we need is encapsulated in these two pieces of data. Now assuming we can get the board represented in a bunch of `Node` objects all in an `NSSet` the algorithm for searching through them is relatively simple.
 
-We take each 'Node' in turn and do a depth first search on its neighbours for a match for the next letter in the word we are checking for.
+We take each `Node` in turn and do a depth first search on its neighbours for a match for the next letter in the word we are checking for.
 
 {% codeblock lang:objc %}
 BOOL searchForWord((NSString \*)word, NSSet * nodeGraph){
@@ -42,7 +42,7 @@ BOOL searchForWord((NSString \*)word, NSSet * nodeGraph){
 }
 {% endcodeblock %}
 
-For the 'depthFirstSearch' function we need to do a few things.
+For the `depthFirstSearch` function we need to do a few things.
 1. Keep track of visited Nodes so we don't visit the same one twice
 2. Keep track of depth so we know our position in the word
 3. Recursively search through the adjacent nodes
