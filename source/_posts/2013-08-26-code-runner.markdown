@@ -12,7 +12,7 @@ description: Short explanation of why Code Runner is great and some usage tips
 [Code runner](http://krillapps.com/coderunner/) (also available in the [Mac App Store](http://itunes.apple.com/us/app/coderunner/id433335799?mt=12)) is a fantastic app that should be in every iOS and Mac developer's toolkit. 
 
 If you are ever in the middle of a project and want to write a quick snippet to determine if an API is going to respond the way you think it will then Code Runner can help you out. Quite simply it sets up an environment where you can just start typing in your language of choice and, when you're ready to test, has a giant play button similar to Xcode that will run your code. 
-
+<!-- MORE -->
 Heres an example from the other day. I wanted to do a check on the iOS system version for a very particular edge case and I was browsing through all the terrible and overly complicated comparison functions proffered in [this Stack Overflow Question](http://stackoverflow.com/questions/3339722/check-iphone-ios-version) and came across the option of using the built in `NSNumericSearch` option for `compare:options:`. I wanted to verify this method would work correctly with different version numbers so I fired up code runner and tried out this small programme with a few different version numbers
 
 {% codeblock lang:obj-c %}

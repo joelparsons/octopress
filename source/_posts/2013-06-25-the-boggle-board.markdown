@@ -7,7 +7,7 @@ categories:
 ---
 
 So I was looking into the "Boggle Board" question which is posted on several programming interview sites. The question is pretty straight forward even if you dont know the game "boggle" which it is based on. You have a nxm matrix of letters and the aim of the game is to make words from those letters. From any arbitraty starting letter you are allowed to travel from letter to letter in any direction including diagonals with the restriction that you cant use the same letter twice. 
-
+<!-- MORE -->
 The interview quetion usually asks candidates to to determine, given a 4x4 boggle board, whether a given word is in the board.
 
 The problem seems deceptively simple but the requirement that you mustnt revisit a letter means that any kind of recursive solution is going to have to keep track of a whole bunch of state and get messy really quickly.
