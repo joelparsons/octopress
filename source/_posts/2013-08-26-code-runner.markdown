@@ -18,7 +18,7 @@ Heres an example from the other day. I wanted to do a check on the iOS system ve
 {% codeblock lang:obj-c %}
 #import <Foundation/Foundation.h>
 
-int main(int argc, char \*argv[]) {
+int main(int argc, char *argv[]) {
     @autoreleasepool {
         NSString * version1 = @"1.9.1";
         NSString * version2 = @"1.100.1";
